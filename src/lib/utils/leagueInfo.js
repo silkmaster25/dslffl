@@ -7,12 +7,15 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>The DraftKings Season Long Fantasy Football League (DSLFFL) puts you directly into the excitement of a full NFL season while playing from the comfort of your own home on DraftKings. </p>
+  <p>Each player in the league will be randomly assigned an NFL team. Your assigned team determines your schedule, division, and conference, it has no bearing on your weekly lineup. You will play the schedule of that NFL team in a complete head to head, season-long experience.</p>
+  <p>Unlike normal season long fantasy leagues, there’s no more getting stuck with an injured, high draft pick week one. You get to draft a new team (build a lineup) every week for your head to head matchup.</p>
+  <p>You will submit your weekly lineup into a DraftKings league contest consisting of all 32 teams. There will not be individual head to heads sent out.</p>
+  <p>Results from your head to head matchup will be applied to the standings, the same as if you battled it out on the field.</p>
+  <p>After you grind it out for a 16 game schedule, that’s when the excitement starts… PLAYOFFS!</p>
+  <p>Playoffs will follow the same setup as the NFL Playoffs with division winners, along with three wildcard teams per conference qualifying. Tie breakers for playoffs are determined by most season points scored. If that is a tie, then it  will follow the NFL tie-breaker rules.</p>
+  <p>If you do not submit a lineup, then you will automatically receive a loss and no points towards your season total (Total Points and Survivor Pool included). Additionally, if your opponent does not submit a lineup, your matchup will then be against the Average score of all teams that week. Example, if you score 150 points and the average of all teams is 140, you get a win. If you score 130 and the average is 140, you will get a loss.</p>
+  <p>If you don’t submit a roster more than once you are <span style="font-weight:bold">lifetime banned</span> from the league.</p>
 `;
 
 /*   STEP 3   */
