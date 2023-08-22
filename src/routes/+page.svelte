@@ -134,6 +134,13 @@
 		color: #bbb;
 		font-style: italic;
 	}
+ 
+    #champ span {
+        position: absolute;
+        top: 50px;
+        z-index: 1;
+        left: 40px;
+    }
 </style>
 
 <div id="home">
@@ -201,8 +208,8 @@
             <h4>2022/23 League Champion</h4>
             <div id="champ">
                 <img src="./laurel.png" class="laurel" alt="laurel" />
+                <span>Jseel</span>
             </div>
-            <span>Jseel</span>
         </div>
     </div>
 
