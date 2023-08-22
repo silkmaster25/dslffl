@@ -202,6 +202,7 @@
             <div id="champ">
                 <img src="./laurel.png" class="laurel" alt="laurel" />
             </div>
+            <span>Jseel</span>
         </div>
     </div>
 
