@@ -149,14 +149,14 @@
         </div>
         <PowerRankings />
     </div>
-    
+
+    <!--
     <div class="leagueData">
         <div class="homeBanner">
             {#await nflState}
                 <div class="center">Retrieving NFL state...</div>
                 <LinearProgress indeterminate />
             {:then nflStateData}
-                <div class="center">2022 Champion:</div>
                 <div class="center">NFL {nflStateData.season} 
                     {#if nflStateData.season_type == 'pre'}
                         Preseason
@@ -195,4 +195,13 @@
             <Transactions />
         </div>
     </div>
+    -->
+    <div id="currentChamp">
+        <h4>2022/23 League Champion</h4>
+        <div id="champ" on:click={() => {if(managers.length) gotoManager({year: podiums[0].year, leagueTeamManagers, rosterID: parseInt(podiums[0].champion)})}} >
+            <img src="{getAvatarFromTeamManagers(leagueTeamManagers, podiums[0].champion, podiums[0].year)}" class="first" alt="champion" />
+            <img src="./laurel.png" class="laurel" alt="laurel" />
+        </div>
+    </div>
+
 </div>
