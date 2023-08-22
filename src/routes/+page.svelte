@@ -152,11 +152,11 @@
     
     <div class="leagueData">
         <div class="homeBanner">
-                <div class="center">2022 Champion {error.message}</div>
             {#await nflState}
                 <div class="center">Retrieving NFL state...</div>
                 <LinearProgress indeterminate />
             {:then nflStateData}
+                <div class="center">2022 Champion:</div>
                 <div class="center">NFL {nflStateData.season} 
                     {#if nflStateData.season_type == 'pre'}
                         Preseason
