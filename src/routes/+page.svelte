@@ -152,6 +152,7 @@
     
     <div class="leagueData">
         <div class="homeBanner">
+                <div class="center">2022 Champion {error.message}</div>
             {#await nflState}
                 <div class="center">Retrieving NFL state...</div>
                 <LinearProgress indeterminate />
