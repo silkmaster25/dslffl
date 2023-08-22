@@ -197,7 +197,7 @@
     </div>
     -->
     <div class="leagueData">
-        <div id="currentChamp">
+        <div class="homeBanner">
             <h4>2022/23 League Champion</h4>
             <div id="champ" on:click={() => {if(managers.length) gotoManager({year: podiums[0].year, leagueTeamManagers, rosterID: parseInt(podiums[0].champion)})}} >
                 <img src="{getAvatarFromTeamManagers(leagueTeamManagers, podiums[0].champion, podiums[0].year)}" class="first" alt="champion" />
